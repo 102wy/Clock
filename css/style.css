@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+}
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+ul,
+li {
+  list-style: none;
+}
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#clock {
+  text-align: center;
+  font-size: 120px;
+  color: #fff;
+  cursor: default;
+}
+
+#login-form {
+}
+
+#login-form input {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 20px;
+  outline-style: none;
+  width: 600px;
+  background: none;
+  transition: background 0.3s;
+  border-radius: 15px 15px 0 0;
+  line-height: 35px;
+}
+
+#login-form input:hover {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+#greeting {
+  color: #fff;
+  line-height: 20vh;
+}
+
+#todo-form {
+}
+
+#todo-form input {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 20px;
+  outline-style: none;
+  width: 600px;
+  background: none;
+  transition: background 0.3s;
+  border-radius: 15px 15px 0 0;
+  line-height: 35px;
+  color: #fff;
+}
+#todo-form input:hover {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+#todo-list {
+}
+#todo-list li {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin: 5px;
+}
+
+#todo-list button {
+  border: none;
+  background: none;
+}
+#quote {
+  position: absolute;
+  bottom: 2vh;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  cursor: default;
+  color: rgba(255, 255, 255, 0.8);
+}
+#quote span {
+  display: block;
+  line-height: 40px;
+}
+#quote span:first-child {
+  font-size: 20px;
+}
+#weather {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+#weather span {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
